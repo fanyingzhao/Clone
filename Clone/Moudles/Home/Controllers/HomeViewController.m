@@ -8,9 +8,11 @@
 
 #import "HomeViewController.h"
 #import "HomeView.h"
+#import "HomeHandler.h"
 
 @interface HomeViewController ()
 @property (nonatomic, strong) UIView* baseView;
+@property (nonatomic, strong) HomeHandler* handler;
 @end
 
 @implementation HomeViewController
@@ -23,14 +25,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.handler = [[HomeHandler alloc] initWithController:self view:self.baseView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 
 @end

@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface BaseHandler : NSObject
+@property (nonatomic, assign) UIViewController* controller;
+@property (nonatomic, assign) UIView* view;
+
+- (instancetype)initWithController:(UIViewController*)controller view:(UIView*)view;
 
 @end
