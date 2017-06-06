@@ -15,6 +15,11 @@
 		626FEC8F1EE6D605009D72CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626FEC8D1EE6D605009D72CC /* LaunchScreen.storyboard */; };
 		626FEC9A1EE6D605009D72CC /* CloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FEC991EE6D605009D72CC /* CloneTests.m */; };
 		626FECA51EE6D605009D72CC /* CloneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECA41EE6D605009D72CC /* CloneUITests.m */; };
+		626FECBD1EE6E45D009D72CC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECBC1EE6E45D009D72CC /* HomeViewController.m */; };
+		626FECC11EE6E520009D72CC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC01EE6E520009D72CC /* BaseViewController.m */; };
+		626FECC41EE6E552009D72CC /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC31EE6E552009D72CC /* HomeView.m */; };
+		626FECC71EE6F168009D72CC /* BaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC61EE6F168009D72CC /* BaseHandler.m */; };
+		626FECCA1EE6F17E009D72CC /* HomeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC91EE6F17E009D72CC /* HomeHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		626FECA01EE6D605009D72CC /* CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		626FECA41EE6D605009D72CC /* CloneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloneUITests.m; sourceTree = "<group>"; };
 		626FECA61EE6D605009D72CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626FECBB1EE6E45D009D72CC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		626FECBC1EE6E45D009D72CC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		626FECBF1EE6E520009D72CC /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		626FECC01EE6E520009D72CC /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		626FECC21EE6E552009D72CC /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		626FECC31EE6E552009D72CC /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		626FECC51EE6F168009D72CC /* BaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHandler.h; sourceTree = "<group>"; };
+		626FECC61EE6F168009D72CC /* BaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHandler.m; sourceTree = "<group>"; };
+		626FECC81EE6F17E009D72CC /* HomeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHandler.h; sourceTree = "<group>"; };
+		626FECC91EE6F17E009D72CC /* HomeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +116,12 @@
 		626FEC7E1EE6D605009D72CC /* Clone */ = {
 			isa = PBXGroup;
 			children = (
+				626FECB61EE6E12F009D72CC /* Moudles */,
+				626FECB51EE6DCF8009D72CC /* Base */,
 				626FECB21EE6D624009D72CC /* ThridParts */,
+				626FECB31EE6DCE2009D72CC /* Utils */,
+				626FECB71EE6E381009D72CC /* Categories */,
+				626FECB41EE6DCEB009D72CC /* Resource */,
 				626FEC821EE6D605009D72CC /* AppDelegate.h */,
 				626FEC831EE6D605009D72CC /* AppDelegate.m */,
 				626FEC851EE6D605009D72CC /* ViewController.h */,
@@ -146,6 +166,83 @@
 			children = (
 			);
 			path = ThridParts;
+			sourceTree = "<group>";
+		};
+		626FECB31EE6DCE2009D72CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		626FECB41EE6DCEB009D72CC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		626FECB51EE6DCF8009D72CC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				626FECBF1EE6E520009D72CC /* BaseViewController.h */,
+				626FECC01EE6E520009D72CC /* BaseViewController.m */,
+				626FECC51EE6F168009D72CC /* BaseHandler.h */,
+				626FECC61EE6F168009D72CC /* BaseHandler.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		626FECB61EE6E12F009D72CC /* Moudles */ = {
+			isa = PBXGroup;
+			children = (
+				626FECB81EE6E431009D72CC /* Home */,
+			);
+			path = Moudles;
+			sourceTree = "<group>";
+		};
+		626FECB71EE6E381009D72CC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		626FECB81EE6E431009D72CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				626FECB91EE6E431009D72CC /* Controllers */,
+				626FECBE1EE6E507009D72CC /* Views */,
+				626FECBA1EE6E431009D72CC /* Handlers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		626FECB91EE6E431009D72CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				626FECBB1EE6E45D009D72CC /* HomeViewController.h */,
+				626FECBC1EE6E45D009D72CC /* HomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		626FECBA1EE6E431009D72CC /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				626FECC81EE6F17E009D72CC /* HomeHandler.h */,
+				626FECC91EE6F17E009D72CC /* HomeHandler.m */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		626FECBE1EE6E507009D72CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				626FECC21EE6E552009D72CC /* HomeView.h */,
+				626FECC31EE6E552009D72CC /* HomeView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +379,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				626FEC871EE6D605009D72CC /* ViewController.m in Sources */,
+				626FECC11EE6E520009D72CC /* BaseViewController.m in Sources */,
+				626FECC71EE6F168009D72CC /* BaseHandler.m in Sources */,
 				626FEC841EE6D605009D72CC /* AppDelegate.m in Sources */,
+				626FECC41EE6E552009D72CC /* HomeView.m in Sources */,
 				626FEC811EE6D605009D72CC /* main.m in Sources */,
+				626FECBD1EE6E45D009D72CC /* HomeViewController.m in Sources */,
+				626FECCA1EE6F17E009D72CC /* HomeHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +617,7 @@
 				626FECAB1EE6D605009D72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		626FECAC1EE6D605009D72CC /* Build configuration list for PBXNativeTarget "CloneTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +626,7 @@
 				626FECAE1EE6D605009D72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		626FECAF1EE6D605009D72CC /* Build configuration list for PBXNativeTarget "CloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +635,7 @@
 				626FECB11EE6D605009D72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
