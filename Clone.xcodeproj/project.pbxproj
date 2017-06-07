@@ -20,6 +20,9 @@
 		626FECC41EE6E552009D72CC /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC31EE6E552009D72CC /* HomeView.m */; };
 		626FECC71EE6F168009D72CC /* BaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC61EE6F168009D72CC /* BaseHandler.m */; };
 		626FECCA1EE6F17E009D72CC /* HomeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC91EE6F17E009D72CC /* HomeHandler.m */; };
+		626FECD11EE8360D009D72CC /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECD01EE8360D009D72CC /* TakePhotoViewController.m */; };
+		626FECD41EE83B33009D72CC /* TakePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECD31EE83B33009D72CC /* TakePhotoView.m */; };
+		626FECD71EE83BA1009D72CC /* TakePhotoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECD61EE83BA1009D72CC /* TakePhotoHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,12 @@
 		626FECC61EE6F168009D72CC /* BaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHandler.m; sourceTree = "<group>"; };
 		626FECC81EE6F17E009D72CC /* HomeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHandler.h; sourceTree = "<group>"; };
 		626FECC91EE6F17E009D72CC /* HomeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHandler.m; sourceTree = "<group>"; };
+		626FECCF1EE8360D009D72CC /* TakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
+		626FECD01EE8360D009D72CC /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
+		626FECD21EE83B33009D72CC /* TakePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoView.h; sourceTree = "<group>"; };
+		626FECD31EE83B33009D72CC /* TakePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoView.m; sourceTree = "<group>"; };
+		626FECD51EE83BA1009D72CC /* TakePhotoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoHandler.h; sourceTree = "<group>"; };
+		626FECD61EE83BA1009D72CC /* TakePhotoHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				626FECB81EE6E431009D72CC /* Home */,
+				626FECCB1EE835F3009D72CC /* Photo */,
 			);
 			path = Moudles;
 			sourceTree = "<group>";
@@ -241,6 +251,43 @@
 			children = (
 				626FECC21EE6E552009D72CC /* HomeView.h */,
 				626FECC31EE6E552009D72CC /* HomeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		626FECCB1EE835F3009D72CC /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				626FECCC1EE835F3009D72CC /* Controllers */,
+				626FECCD1EE835F3009D72CC /* Handles */,
+				626FECCE1EE835F3009D72CC /* Views */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		626FECCC1EE835F3009D72CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				626FECCF1EE8360D009D72CC /* TakePhotoViewController.h */,
+				626FECD01EE8360D009D72CC /* TakePhotoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		626FECCD1EE835F3009D72CC /* Handles */ = {
+			isa = PBXGroup;
+			children = (
+				626FECD51EE83BA1009D72CC /* TakePhotoHandler.h */,
+				626FECD61EE83BA1009D72CC /* TakePhotoHandler.m */,
+			);
+			path = Handles;
+			sourceTree = "<group>";
+		};
+		626FECCE1EE835F3009D72CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				626FECD21EE83B33009D72CC /* TakePhotoView.h */,
+				626FECD31EE83B33009D72CC /* TakePhotoView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -380,11 +427,14 @@
 			files = (
 				626FEC871EE6D605009D72CC /* ViewController.m in Sources */,
 				626FECC11EE6E520009D72CC /* BaseViewController.m in Sources */,
+				626FECD41EE83B33009D72CC /* TakePhotoView.m in Sources */,
 				626FECC71EE6F168009D72CC /* BaseHandler.m in Sources */,
 				626FEC841EE6D605009D72CC /* AppDelegate.m in Sources */,
 				626FECC41EE6E552009D72CC /* HomeView.m in Sources */,
+				626FECD71EE83BA1009D72CC /* TakePhotoHandler.m in Sources */,
 				626FEC811EE6D605009D72CC /* main.m in Sources */,
 				626FECBD1EE6E45D009D72CC /* HomeViewController.m in Sources */,
+				626FECD11EE8360D009D72CC /* TakePhotoViewController.m in Sources */,
 				626FECCA1EE6F17E009D72CC /* HomeHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
