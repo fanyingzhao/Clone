@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
 
-@interface HomeViewController : BaseViewController
+@protocol HomeViewDelegate;
+
+@interface HomeViewController : BaseViewController<HomeViewDelegate>
 
 @end

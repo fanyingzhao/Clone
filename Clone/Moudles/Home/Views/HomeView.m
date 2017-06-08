@@ -33,21 +33,29 @@
 
 #pragma mark - events
 - (void)startBtnClick:(UIButton*)sender {
-    
+    if (self.delegate && [self.delegate respondsToSelector:@selector(homeViewStartBtnClick:btn:)]) {
+        [self.delegate homeViewStartBtnClick:self btn:sender];
+    }
 }
 
 - (void)btnClick:(UIButton*)sender {
     switch (self.tag - 100) {
         case 0: {
-            
+            if (self.delegate && [self.delegate respondsToSelector:@selector(homeViewRateBtnClick:btn:)]) {
+                [self.delegate homeViewRateBtnClick:self btn:sender];
+            }
         }
             break;
         case 1: {
-            
+            if (self.delegate && [self.delegate respondsToSelector:@selector(homeViewTutoritalBtnClick:btn:)]) {
+                [self.delegate homeViewTutoritalBtnClick:self btn:sender];
+            }
         }
             break;
         case 2: {
-            
+            if (self.delegate && [self.delegate respondsToSelector:@selector(homeViewFollowBtnClick:btn:)]) {
+                [self.delegate homeViewFollowBtnClick:self btn:sender];
+            }
         }
             break;
         default:

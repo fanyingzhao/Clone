@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomeViewController.h"
+#import "BaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     HomeViewController* vc = [[HomeViewController alloc] init];
-    self.window.rootViewController = vc;
+    self.window.rootViewController = [[BaseNavigationController alloc] initWithRootViewController:vc];
     
     [self.window makeKeyAndVisible];
     

@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6224F1791EE8EAE800DB0A67 /* NSDate+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1481EE8EAE800DB0A67 /* NSDate+FYAdd.m */; };
+		6224F17A1EE8EAE800DB0A67 /* NSFileManager+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F14A1EE8EAE800DB0A67 /* NSFileManager+FYAdd.m */; };
+		6224F17B1EE8EAE800DB0A67 /* NSMutableArray+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F14C1EE8EAE800DB0A67 /* NSMutableArray+FYAdd.m */; };
+		6224F17C1EE8EAE800DB0A67 /* NSNumber+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F14E1EE8EAE800DB0A67 /* NSNumber+FYAdd.m */; };
+		6224F17D1EE8EAE800DB0A67 /* NSObject+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1501EE8EAE800DB0A67 /* NSObject+FYAdd.m */; };
+		6224F17E1EE8EAE800DB0A67 /* NSString+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1521EE8EAE800DB0A67 /* NSString+FYAdd.m */; };
+		6224F17F1EE8EAE800DB0A67 /* UIView+FYAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1541EE8EAE800DB0A67 /* UIView+FYAnimation.m */; };
+		6224F1801EE8EAE800DB0A67 /* QuartzHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1591EE8EAE800DB0A67 /* QuartzHelper.m */; };
+		6224F1811EE8EAE800DB0A67 /* nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6224F15C1EE8EAE800DB0A67 /* nav_back@2x.png */; };
+		6224F1821EE8EAE800DB0A67 /* UIBezierPath+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F15F1EE8EAE800DB0A67 /* UIBezierPath+FYAdd.m */; };
+		6224F1831EE8EAE800DB0A67 /* UIButton+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1611EE8EAE800DB0A67 /* UIButton+FYAdd.m */; };
+		6224F1841EE8EAE800DB0A67 /* UIDevice+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1631EE8EAE800DB0A67 /* UIDevice+FYAdd.m */; };
+		6224F1851EE8EAE800DB0A67 /* UIImage+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1651EE8EAE800DB0A67 /* UIImage+FYAdd.m */; };
+		6224F1861EE8EAE800DB0A67 /* UIView+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1671EE8EAE800DB0A67 /* UIView+FYAdd.m */; };
+		6224F1871EE8EAE800DB0A67 /* UIViewController+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1691EE8EAE800DB0A67 /* UIViewController+FYAdd.m */; };
+		6224F1881EE8EAE800DB0A67 /* FYAssertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F16C1EE8EAE800DB0A67 /* FYAssertHandler.m */; };
+		6224F1891EE8EAE800DB0A67 /* FYMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F16E1EE8EAE800DB0A67 /* FYMath.m */; };
+		6224F18A1EE8EAE800DB0A67 /* FYNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1701EE8EAE800DB0A67 /* FYNotification.m */; };
+		6224F18B1EE8EAE800DB0A67 /* FYSaveHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1721EE8EAE800DB0A67 /* FYSaveHelper.m */; };
+		6224F18C1EE8EAE800DB0A67 /* FYUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1741EE8EAE800DB0A67 /* FYUtility.m */; };
+		6224F18D1EE8EAE800DB0A67 /* FYVideoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1761EE8EAE800DB0A67 /* FYVideoHelper.m */; };
+		6224F18E1EE8EAE800DB0A67 /* QrCodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1781EE8EAE800DB0A67 /* QrCodeHelper.m */; };
+		6224F1911EE8EF5B00DB0A67 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1901EE8EF5B00DB0A67 /* BaseNavigationController.m */; };
+		6224F19B1EE91E6E00DB0A67 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1941EE91E6E00DB0A67 /* AudioManager.m */; };
+		6224F19C1EE91E6E00DB0A67 /* AVCaptureDevice+FYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1961EE91E6E00DB0A67 /* AVCaptureDevice+FYAdd.m */; };
+		6224F19D1EE91E6E00DB0A67 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F1981EE91E6E00DB0A67 /* CameraManager.m */; };
+		6224F19E1EE91E6E00DB0A67 /* CaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6224F19A1EE91E6E00DB0A67 /* CaptureManager.m */; };
 		626FEC811EE6D605009D72CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FEC801EE6D605009D72CC /* main.m */; };
 		626FEC841EE6D605009D72CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FEC831EE6D605009D72CC /* AppDelegate.m */; };
 		626FEC871EE6D605009D72CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FEC861EE6D605009D72CC /* ViewController.m */; };
@@ -20,6 +47,9 @@
 		626FECC41EE6E552009D72CC /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC31EE6E552009D72CC /* HomeView.m */; };
 		626FECC71EE6F168009D72CC /* BaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC61EE6F168009D72CC /* BaseHandler.m */; };
 		626FECCA1EE6F17E009D72CC /* HomeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECC91EE6F17E009D72CC /* HomeHandler.m */; };
+		626FECD11EE8360D009D72CC /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECD01EE8360D009D72CC /* TakePhotoViewController.m */; };
+		626FECD41EE83B33009D72CC /* TakePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECD31EE83B33009D72CC /* TakePhotoView.m */; };
+		626FECD71EE83BA1009D72CC /* TakePhotoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 626FECD61EE83BA1009D72CC /* TakePhotoHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +70,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6224F0F41EE8E9D700DB0A67 /* Clone.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clone.pch; sourceTree = "<group>"; };
+		6224F1471EE8EAE800DB0A67 /* NSDate+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1481EE8EAE800DB0A67 /* NSDate+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1491EE8EAE800DB0A67 /* NSFileManager+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+FYAdd.h"; sourceTree = "<group>"; };
+		6224F14A1EE8EAE800DB0A67 /* NSFileManager+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+FYAdd.m"; sourceTree = "<group>"; };
+		6224F14B1EE8EAE800DB0A67 /* NSMutableArray+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FYAdd.h"; sourceTree = "<group>"; };
+		6224F14C1EE8EAE800DB0A67 /* NSMutableArray+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FYAdd.m"; sourceTree = "<group>"; };
+		6224F14D1EE8EAE800DB0A67 /* NSNumber+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FYAdd.h"; sourceTree = "<group>"; };
+		6224F14E1EE8EAE800DB0A67 /* NSNumber+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FYAdd.m"; sourceTree = "<group>"; };
+		6224F14F1EE8EAE800DB0A67 /* NSObject+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1501EE8EAE800DB0A67 /* NSObject+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1511EE8EAE800DB0A67 /* NSString+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1521EE8EAE800DB0A67 /* NSString+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1531EE8EAE800DB0A67 /* UIView+FYAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYAnimation.h"; sourceTree = "<group>"; };
+		6224F1541EE8EAE800DB0A67 /* UIView+FYAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYAnimation.m"; sourceTree = "<group>"; };
+		6224F1551EE8EAE800DB0A67 /* FYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYKit.h; sourceTree = "<group>"; };
+		6224F1561EE8EAE800DB0A67 /* FYMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYMacro.h; sourceTree = "<group>"; };
+		6224F1581EE8EAE800DB0A67 /* QuartzHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzHelper.h; sourceTree = "<group>"; };
+		6224F1591EE8EAE800DB0A67 /* QuartzHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzHelper.m; sourceTree = "<group>"; };
+		6224F15C1EE8EAE800DB0A67 /* nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_back@2x.png"; sourceTree = "<group>"; };
+		6224F15E1EE8EAE800DB0A67 /* UIBezierPath+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+FYAdd.h"; sourceTree = "<group>"; };
+		6224F15F1EE8EAE800DB0A67 /* UIBezierPath+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1601EE8EAE800DB0A67 /* UIButton+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1611EE8EAE800DB0A67 /* UIButton+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1621EE8EAE800DB0A67 /* UIDevice+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1631EE8EAE800DB0A67 /* UIDevice+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1641EE8EAE800DB0A67 /* UIImage+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1651EE8EAE800DB0A67 /* UIImage+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1661EE8EAE800DB0A67 /* UIView+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1671EE8EAE800DB0A67 /* UIView+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1681EE8EAE800DB0A67 /* UIViewController+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1691EE8EAE800DB0A67 /* UIViewController+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FYAdd.m"; sourceTree = "<group>"; };
+		6224F16B1EE8EAE800DB0A67 /* FYAssertHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAssertHandler.h; sourceTree = "<group>"; };
+		6224F16C1EE8EAE800DB0A67 /* FYAssertHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAssertHandler.m; sourceTree = "<group>"; };
+		6224F16D1EE8EAE800DB0A67 /* FYMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYMath.h; sourceTree = "<group>"; };
+		6224F16E1EE8EAE800DB0A67 /* FYMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYMath.m; sourceTree = "<group>"; };
+		6224F16F1EE8EAE800DB0A67 /* FYNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNotification.h; sourceTree = "<group>"; };
+		6224F1701EE8EAE800DB0A67 /* FYNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNotification.m; sourceTree = "<group>"; };
+		6224F1711EE8EAE800DB0A67 /* FYSaveHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYSaveHelper.h; sourceTree = "<group>"; };
+		6224F1721EE8EAE800DB0A67 /* FYSaveHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYSaveHelper.m; sourceTree = "<group>"; };
+		6224F1731EE8EAE800DB0A67 /* FYUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYUtility.h; sourceTree = "<group>"; };
+		6224F1741EE8EAE800DB0A67 /* FYUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYUtility.m; sourceTree = "<group>"; };
+		6224F1751EE8EAE800DB0A67 /* FYVideoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYVideoHelper.h; sourceTree = "<group>"; };
+		6224F1761EE8EAE800DB0A67 /* FYVideoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYVideoHelper.m; sourceTree = "<group>"; };
+		6224F1771EE8EAE800DB0A67 /* QrCodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrCodeHelper.h; sourceTree = "<group>"; };
+		6224F1781EE8EAE800DB0A67 /* QrCodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrCodeHelper.m; sourceTree = "<group>"; };
+		6224F18F1EE8EF5B00DB0A67 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		6224F1901EE8EF5B00DB0A67 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		6224F1931EE91E6E00DB0A67 /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		6224F1941EE91E6E00DB0A67 /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
+		6224F1951EE91E6E00DB0A67 /* AVCaptureDevice+FYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureDevice+FYAdd.h"; sourceTree = "<group>"; };
+		6224F1961EE91E6E00DB0A67 /* AVCaptureDevice+FYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureDevice+FYAdd.m"; sourceTree = "<group>"; };
+		6224F1971EE91E6E00DB0A67 /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		6224F1981EE91E6E00DB0A67 /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		6224F1991EE91E6E00DB0A67 /* CaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureManager.h; sourceTree = "<group>"; };
+		6224F19A1EE91E6E00DB0A67 /* CaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureManager.m; sourceTree = "<group>"; };
 		626FEC7C1EE6D605009D72CC /* Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626FEC801EE6D605009D72CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		626FEC821EE6D605009D72CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +152,12 @@
 		626FECC61EE6F168009D72CC /* BaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHandler.m; sourceTree = "<group>"; };
 		626FECC81EE6F17E009D72CC /* HomeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHandler.h; sourceTree = "<group>"; };
 		626FECC91EE6F17E009D72CC /* HomeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHandler.m; sourceTree = "<group>"; };
+		626FECCF1EE8360D009D72CC /* TakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
+		626FECD01EE8360D009D72CC /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
+		626FECD21EE83B33009D72CC /* TakePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoView.h; sourceTree = "<group>"; };
+		626FECD31EE83B33009D72CC /* TakePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoView.m; sourceTree = "<group>"; };
+		626FECD51EE83BA1009D72CC /* TakePhotoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoHandler.h; sourceTree = "<group>"; };
+		626FECD61EE83BA1009D72CC /* TakePhotoHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +185,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6224F1401EE8EA9D00DB0A67 /* ThridParts */ = {
+			isa = PBXGroup;
+			children = (
+				6224F1921EE91E6E00DB0A67 /* Camera */,
+				6224F1441EE8EAE800DB0A67 /* FYKit */,
+			);
+			path = ThridParts;
+			sourceTree = "<group>";
+		};
+		6224F1411EE8EAAE00DB0A67 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6224F1421EE8EABD00DB0A67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6224F1431EE8EACF00DB0A67 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6224F1441EE8EAE800DB0A67 /* FYKit */ = {
+			isa = PBXGroup;
+			children = (
+				6224F1451EE8EAE800DB0A67 /* Base */,
+				6224F1461EE8EAE800DB0A67 /* Foundation */,
+				6224F1551EE8EAE800DB0A67 /* FYKit.h */,
+				6224F1561EE8EAE800DB0A67 /* FYMacro.h */,
+				6224F1571EE8EAE800DB0A67 /* Quartz */,
+				6224F15A1EE8EAE800DB0A67 /* Resources */,
+				6224F15D1EE8EAE800DB0A67 /* UIKit */,
+				6224F16A1EE8EAE800DB0A67 /* Utility */,
+			);
+			name = FYKit;
+			path = ../../../../FYKit/FFKit/FYKit;
+			sourceTree = "<group>";
+		};
+		6224F1451EE8EAE800DB0A67 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6224F1461EE8EAE800DB0A67 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				6224F1471EE8EAE800DB0A67 /* NSDate+FYAdd.h */,
+				6224F1481EE8EAE800DB0A67 /* NSDate+FYAdd.m */,
+				6224F1491EE8EAE800DB0A67 /* NSFileManager+FYAdd.h */,
+				6224F14A1EE8EAE800DB0A67 /* NSFileManager+FYAdd.m */,
+				6224F14B1EE8EAE800DB0A67 /* NSMutableArray+FYAdd.h */,
+				6224F14C1EE8EAE800DB0A67 /* NSMutableArray+FYAdd.m */,
+				6224F14D1EE8EAE800DB0A67 /* NSNumber+FYAdd.h */,
+				6224F14E1EE8EAE800DB0A67 /* NSNumber+FYAdd.m */,
+				6224F14F1EE8EAE800DB0A67 /* NSObject+FYAdd.h */,
+				6224F1501EE8EAE800DB0A67 /* NSObject+FYAdd.m */,
+				6224F1511EE8EAE800DB0A67 /* NSString+FYAdd.h */,
+				6224F1521EE8EAE800DB0A67 /* NSString+FYAdd.m */,
+				6224F1531EE8EAE800DB0A67 /* UIView+FYAnimation.h */,
+				6224F1541EE8EAE800DB0A67 /* UIView+FYAnimation.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		6224F1571EE8EAE800DB0A67 /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				6224F1581EE8EAE800DB0A67 /* QuartzHelper.h */,
+				6224F1591EE8EAE800DB0A67 /* QuartzHelper.m */,
+			);
+			path = Quartz;
+			sourceTree = "<group>";
+		};
+		6224F15A1EE8EAE800DB0A67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6224F15B1EE8EAE800DB0A67 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6224F15B1EE8EAE800DB0A67 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6224F15C1EE8EAE800DB0A67 /* nav_back@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		6224F15D1EE8EAE800DB0A67 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6224F15E1EE8EAE800DB0A67 /* UIBezierPath+FYAdd.h */,
+				6224F15F1EE8EAE800DB0A67 /* UIBezierPath+FYAdd.m */,
+				6224F1601EE8EAE800DB0A67 /* UIButton+FYAdd.h */,
+				6224F1611EE8EAE800DB0A67 /* UIButton+FYAdd.m */,
+				6224F1621EE8EAE800DB0A67 /* UIDevice+FYAdd.h */,
+				6224F1631EE8EAE800DB0A67 /* UIDevice+FYAdd.m */,
+				6224F1641EE8EAE800DB0A67 /* UIImage+FYAdd.h */,
+				6224F1651EE8EAE800DB0A67 /* UIImage+FYAdd.m */,
+				6224F1661EE8EAE800DB0A67 /* UIView+FYAdd.h */,
+				6224F1671EE8EAE800DB0A67 /* UIView+FYAdd.m */,
+				6224F1681EE8EAE800DB0A67 /* UIViewController+FYAdd.h */,
+				6224F1691EE8EAE800DB0A67 /* UIViewController+FYAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6224F16A1EE8EAE800DB0A67 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6224F16B1EE8EAE800DB0A67 /* FYAssertHandler.h */,
+				6224F16C1EE8EAE800DB0A67 /* FYAssertHandler.m */,
+				6224F16D1EE8EAE800DB0A67 /* FYMath.h */,
+				6224F16E1EE8EAE800DB0A67 /* FYMath.m */,
+				6224F16F1EE8EAE800DB0A67 /* FYNotification.h */,
+				6224F1701EE8EAE800DB0A67 /* FYNotification.m */,
+				6224F1711EE8EAE800DB0A67 /* FYSaveHelper.h */,
+				6224F1721EE8EAE800DB0A67 /* FYSaveHelper.m */,
+				6224F1731EE8EAE800DB0A67 /* FYUtility.h */,
+				6224F1741EE8EAE800DB0A67 /* FYUtility.m */,
+				6224F1751EE8EAE800DB0A67 /* FYVideoHelper.h */,
+				6224F1761EE8EAE800DB0A67 /* FYVideoHelper.m */,
+				6224F1771EE8EAE800DB0A67 /* QrCodeHelper.h */,
+				6224F1781EE8EAE800DB0A67 /* QrCodeHelper.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6224F1921EE91E6E00DB0A67 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				6224F1931EE91E6E00DB0A67 /* AudioManager.h */,
+				6224F1941EE91E6E00DB0A67 /* AudioManager.m */,
+				6224F1951EE91E6E00DB0A67 /* AVCaptureDevice+FYAdd.h */,
+				6224F1961EE91E6E00DB0A67 /* AVCaptureDevice+FYAdd.m */,
+				6224F1971EE91E6E00DB0A67 /* CameraManager.h */,
+				6224F1981EE91E6E00DB0A67 /* CameraManager.m */,
+				6224F1991EE91E6E00DB0A67 /* CaptureManager.h */,
+				6224F19A1EE91E6E00DB0A67 /* CaptureManager.m */,
+			);
+			name = Camera;
+			path = ../../../../FYKit/FFKit/Module/Camera;
+			sourceTree = "<group>";
+		};
 		626FEC731EE6D605009D72CC = {
 			isa = PBXGroup;
 			children = (
@@ -118,14 +365,15 @@
 			children = (
 				626FECB61EE6E12F009D72CC /* Moudles */,
 				626FECB51EE6DCF8009D72CC /* Base */,
-				626FECB21EE6D624009D72CC /* ThridParts */,
-				626FECB31EE6DCE2009D72CC /* Utils */,
-				626FECB71EE6E381009D72CC /* Categories */,
-				626FECB41EE6DCEB009D72CC /* Resource */,
+				6224F1411EE8EAAE00DB0A67 /* Utils */,
+				6224F1401EE8EA9D00DB0A67 /* ThridParts */,
+				6224F1431EE8EACF00DB0A67 /* Categories */,
+				6224F1421EE8EABD00DB0A67 /* Resources */,
 				626FEC821EE6D605009D72CC /* AppDelegate.h */,
 				626FEC831EE6D605009D72CC /* AppDelegate.m */,
 				626FEC851EE6D605009D72CC /* ViewController.h */,
 				626FEC861EE6D605009D72CC /* ViewController.m */,
+				6224F0F41EE8E9D700DB0A67 /* Clone.pch */,
 				626FEC881EE6D605009D72CC /* Main.storyboard */,
 				626FEC8B1EE6D605009D72CC /* Assets.xcassets */,
 				626FEC8D1EE6D605009D72CC /* LaunchScreen.storyboard */,
@@ -161,27 +409,6 @@
 			path = CloneUITests;
 			sourceTree = "<group>";
 		};
-		626FECB21EE6D624009D72CC /* ThridParts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ThridParts;
-			sourceTree = "<group>";
-		};
-		626FECB31EE6DCE2009D72CC /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		626FECB41EE6DCEB009D72CC /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 		626FECB51EE6DCF8009D72CC /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +416,8 @@
 				626FECC01EE6E520009D72CC /* BaseViewController.m */,
 				626FECC51EE6F168009D72CC /* BaseHandler.h */,
 				626FECC61EE6F168009D72CC /* BaseHandler.m */,
+				6224F18F1EE8EF5B00DB0A67 /* BaseNavigationController.h */,
+				6224F1901EE8EF5B00DB0A67 /* BaseNavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -197,15 +426,9 @@
 			isa = PBXGroup;
 			children = (
 				626FECB81EE6E431009D72CC /* Home */,
+				626FECCB1EE835F3009D72CC /* Photo */,
 			);
 			path = Moudles;
-			sourceTree = "<group>";
-		};
-		626FECB71EE6E381009D72CC /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 		626FECB81EE6E431009D72CC /* Home */ = {
@@ -241,6 +464,43 @@
 			children = (
 				626FECC21EE6E552009D72CC /* HomeView.h */,
 				626FECC31EE6E552009D72CC /* HomeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		626FECCB1EE835F3009D72CC /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				626FECCC1EE835F3009D72CC /* Controllers */,
+				626FECCD1EE835F3009D72CC /* Handles */,
+				626FECCE1EE835F3009D72CC /* Views */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		626FECCC1EE835F3009D72CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				626FECCF1EE8360D009D72CC /* TakePhotoViewController.h */,
+				626FECD01EE8360D009D72CC /* TakePhotoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		626FECCD1EE835F3009D72CC /* Handles */ = {
+			isa = PBXGroup;
+			children = (
+				626FECD51EE83BA1009D72CC /* TakePhotoHandler.h */,
+				626FECD61EE83BA1009D72CC /* TakePhotoHandler.m */,
+			);
+			path = Handles;
+			sourceTree = "<group>";
+		};
+		626FECCE1EE835F3009D72CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				626FECD21EE83B33009D72CC /* TakePhotoView.h */,
+				626FECD31EE83B33009D72CC /* TakePhotoView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,6 +572,7 @@
 				TargetAttributes = {
 					626FEC7B1EE6D605009D72CC = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VZ7X9UU3BG;
 						ProvisioningStyle = Automatic;
 					};
 					626FEC941EE6D605009D72CC = {
@@ -352,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				626FEC8F1EE6D605009D72CC /* LaunchScreen.storyboard in Resources */,
+				6224F1811EE8EAE800DB0A67 /* nav_back@2x.png in Resources */,
 				626FEC8C1EE6D605009D72CC /* Assets.xcassets in Resources */,
 				626FEC8A1EE6D605009D72CC /* Main.storyboard in Resources */,
 			);
@@ -378,14 +640,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6224F19E1EE91E6E00DB0A67 /* CaptureManager.m in Sources */,
 				626FEC871EE6D605009D72CC /* ViewController.m in Sources */,
+				6224F1871EE8EAE800DB0A67 /* UIViewController+FYAdd.m in Sources */,
 				626FECC11EE6E520009D72CC /* BaseViewController.m in Sources */,
+				6224F1831EE8EAE800DB0A67 /* UIButton+FYAdd.m in Sources */,
+				6224F18B1EE8EAE800DB0A67 /* FYSaveHelper.m in Sources */,
+				6224F17F1EE8EAE800DB0A67 /* UIView+FYAnimation.m in Sources */,
+				6224F18A1EE8EAE800DB0A67 /* FYNotification.m in Sources */,
+				6224F18E1EE8EAE800DB0A67 /* QrCodeHelper.m in Sources */,
+				626FECD41EE83B33009D72CC /* TakePhotoView.m in Sources */,
+				6224F1861EE8EAE800DB0A67 /* UIView+FYAdd.m in Sources */,
+				6224F17A1EE8EAE800DB0A67 /* NSFileManager+FYAdd.m in Sources */,
+				6224F1791EE8EAE800DB0A67 /* NSDate+FYAdd.m in Sources */,
+				6224F19B1EE91E6E00DB0A67 /* AudioManager.m in Sources */,
+				6224F1881EE8EAE800DB0A67 /* FYAssertHandler.m in Sources */,
+				6224F1821EE8EAE800DB0A67 /* UIBezierPath+FYAdd.m in Sources */,
 				626FECC71EE6F168009D72CC /* BaseHandler.m in Sources */,
+				6224F17D1EE8EAE800DB0A67 /* NSObject+FYAdd.m in Sources */,
+				6224F18C1EE8EAE800DB0A67 /* FYUtility.m in Sources */,
 				626FEC841EE6D605009D72CC /* AppDelegate.m in Sources */,
+				6224F1891EE8EAE800DB0A67 /* FYMath.m in Sources */,
 				626FECC41EE6E552009D72CC /* HomeView.m in Sources */,
+				6224F1841EE8EAE800DB0A67 /* UIDevice+FYAdd.m in Sources */,
+				6224F19D1EE91E6E00DB0A67 /* CameraManager.m in Sources */,
+				6224F17C1EE8EAE800DB0A67 /* NSNumber+FYAdd.m in Sources */,
+				6224F1801EE8EAE800DB0A67 /* QuartzHelper.m in Sources */,
+				6224F1911EE8EF5B00DB0A67 /* BaseNavigationController.m in Sources */,
+				6224F18D1EE8EAE800DB0A67 /* FYVideoHelper.m in Sources */,
+				6224F19C1EE91E6E00DB0A67 /* AVCaptureDevice+FYAdd.m in Sources */,
+				626FECD71EE83BA1009D72CC /* TakePhotoHandler.m in Sources */,
 				626FEC811EE6D605009D72CC /* main.m in Sources */,
 				626FECBD1EE6E45D009D72CC /* HomeViewController.m in Sources */,
+				626FECD11EE8360D009D72CC /* TakePhotoViewController.m in Sources */,
+				6224F17B1EE8EAE800DB0A67 /* NSMutableArray+FYAdd.m in Sources */,
+				6224F17E1EE8EAE800DB0A67 /* NSString+FYAdd.m in Sources */,
 				626FECCA1EE6F17E009D72CC /* HomeHandler.m in Sources */,
+				6224F1851EE8EAE800DB0A67 /* UIImage+FYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +825,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VZ7X9UU3BG;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Clone/Clone.pch";
 				INFOPLIST_FILE = Clone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fyz.Clone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,7 +840,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VZ7X9UU3BG;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Clone/Clone.pch";
 				INFOPLIST_FILE = Clone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fyz.Clone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
